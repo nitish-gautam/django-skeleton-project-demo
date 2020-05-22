@@ -1,3 +1,22 @@
 body {
 	background-color: #ebeff5;
+  	text-align:center;
+  	color: blue;
+}
+
+h1 {
+	color: white;
+	font-weight: 300;
+	font-size: 60px;
+	line-height: 1.2;
+	margin-bottom: 15px;
+}
+
+h2 {
+  background-color: grey;
+  color: white;
+}
+
+.welcome-msg{
+	color: green;
 }

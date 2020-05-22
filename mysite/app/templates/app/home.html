@@ -3,16 +3,70 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
+<header>
+    <h1>Welcome To MY APP</h1>
+ </header>
+
 <body>
-	<!-- Hi section -->
-	<section class="section">
-		<div class="container">
-			<h1 class="title">
-				Welcome to MY-APP Website !!!!!
-			</h1>
+	<div class="container">
+		<!-- Header h1 section -->
+		<section class="section">
+			<div class="container">
+				<h1 class="welcome-msg">
+					Welcome to MY-APP h1 Website !!!!!
+				</h1>
+			</div>
+		</section>
+		
+		<!-- Header h2 section with box-->
+		<h2>
+			Welcome to MY-APP h2 Website !!!!!
+		</h2>
+		
+		<!-- Status BOX ppresentation -->
+		<div class="row">
+			<div class="row justify-content-center mt-2">
+				<div class="col">
+					<div class="col-md-10">
+						<div class="card text-center text-dark  mb-2" style="width: 18rem"; id="current-ongoing-tasks">
+							<div class="card-header">
+								<h5 class="card-title">STATUS-RESULT</h5>
+							</div>
+							<div class="card-body">
+								<h3 class="card-title">{{0}}</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</section>
-	
+
+		<!-- Ecom style Product display -->
+		<div class="row">
+			<div class="col-lg-4">
+				<img class="thumbnail" src="imageURL">
+				<div class="box-element product">
+					<h6><strong>productName{{i}}</strong></h6>
+					<hr>
+					<button data-product="PROD-ID{{i}}" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+					<a class="btn btn-outline-success" href="#">View</a>
+					<h4 style="display: inline-block; float: right"><strong>$22</strong></h4>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<img class="thumbnail" src="imageURL">
+					<div class="box-element product">
+						<h6><strong>productName</strong></h6>
+						<hr>
+						<button data-product="PROD-ID" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
+						<a class="btn btn-outline-success" href="#">View</a>
+						<h4 style="display: inline-block; float: right"><strong>$24</strong></h4>
+					</div>
+			</div>
+		</div>
+	</div>
+
    	<!-- Footer Section  -->
     <footer class="footer">
     </footer>
